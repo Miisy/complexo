@@ -13,7 +13,7 @@ form.addEventListener('submit', function(e) {
     const nomeBeneficiario = document.getElementById('nome-beneficiario');
     const numeroConta = document.getElementById('numero-conta');
     const valorDeposito = document.getElementById('valor');
-    const mensagemSucesso = 'Montante de: $(valorDeposito.value) depositado para o cliente: $(nomeBeneficiario.value) - conta: $(numeroConta.value)';
+    const mensagemSucesso = 'Montante de: ${valorDeposito.value} depositado para o cliente: ${nomeBeneficiario.value} - conta: ${numeroConta.value}';
 
     if (formValido)
     {    
